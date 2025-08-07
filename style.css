@@ -231,5 +231,48 @@ body {
   line-height: 100%;
 }
 
+.conexao-confiavel {
+  background-color: #F6F6F6;
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo-central {
+  max-width: 1280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0 40px;
+}
+
+.titulo-luckiest {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  color: #23272A;
+  margin: 0;
+}
+
+.paragrafo-central {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #23272A;
+  max-width: 802px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.imagem-conexao {
+  width: 784px;
+  height: 508px;
+  object-fit: contain;
+}
+
+
 
 
