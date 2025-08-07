@@ -1,0 +1,160 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.cabecalho {
+  width: 100%;
+  max-width: 1550px;
+  height: 459px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url('assets/discord.png'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.conteudo-header {
+  position: absolute;
+  top: 94px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 757px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.titulo {
+  width: 313px;
+  height: 112px;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.paragrafo {
+  width: 757px;
+  height: 66px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.botoes {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+}
+
+.btn.primario {
+  width: 205px;
+  height: 44px;
+  background-color: #23272A;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn.secundario {
+  width: 268px;
+  height: 44px;
+  background-color: #FFFFFF;
+  color: #23272A;
+  border: none;
+  border-radius: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+/* 
+********* */
+.secao-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #e2e5e8;
+  padding: 40px 0; 
+}
+
+.container-secao {
+  width: 971px;
+  height: 394px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-secao {
+  width: 607px;
+  height: 394px;
+  object-fit: cover;
+}
+
+.texto-secao {
+  width: 348px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2e5e8;
+}
+
+.titulo-secao {
+  width: 329px;
+  height: 270px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  font-style: extra-bold;
+  line-height: 100%;
+  color: #23272A;
+  margin-bottom: 24px;
+}
+
+.paragrafo-secao {
+  width: 329px;
+  height: 270px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #23272A;
+  
+}
+
+
